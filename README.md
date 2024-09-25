@@ -4,4 +4,7 @@
 #### HabibulloH
 #### Tohirjon
 #### Mirjalol
+#### Nurbek
+#### Akram
+#### Hojiakbar
 my first repository
