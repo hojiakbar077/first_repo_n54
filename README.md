@@ -3,6 +3,8 @@
 ### third header
 #### HabibulloH
 #### Tohirjon
+#### Nurbek
+#### Akram
 #### Hojiakbar
 ####Abduljalil
 my first repository
