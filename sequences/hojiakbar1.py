@@ -7,8 +7,8 @@ print("tuple :",tuple)
 string = "hojiakbar"
 print("string :",string)
 
-range = range(1,20)
-print("range :",range)
+range1 = range(1,20)
+print("range :",range1)
 
 byte = bytes([20,30,10])
 print("byte :",byte)
