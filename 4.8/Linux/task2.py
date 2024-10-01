@@ -10,7 +10,7 @@ def error_detector(file_name):
     for line in content:
         hours.append(line[10:13])
 
-    return f"{max(hours)} was the most active hour."
+    return f"{max(set(hours), key=hours.count)} was the most active hour."
 
 
 print(error_detector(FILE))

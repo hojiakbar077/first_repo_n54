@@ -30,5 +30,7 @@ def info_stat(file_name):
             return key, info_data[key]
 
 
-print(f"The most occurred info status => {info_stat(FILE)[0]} occurred {info_stat(FILE)[1]} times.")
+active_status = info_stat(FILE)
+
+print(f"The most occurred info status => {active_status[0]} occurred {active_status[1]} times.")
 print(info_detector(FILE))
