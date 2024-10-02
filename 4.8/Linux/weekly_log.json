@@ -1,0 +1,44 @@
+{
+    "Monday": {
+        "INFO": 7289,
+        "ERROR": 7367,
+        "WARNING": 7308,
+        "DEBUG": 7495
+    },
+    "Tuesday": {
+        "INFO": 7267,
+        "ERROR": 7250,
+        "WARNING": 7243,
+        "DEBUG": 7326
+    },
+    "Wednesday": {
+        "INFO": 7305,
+        "ERROR": 7649,
+        "WARNING": 7761,
+        "DEBUG": 7606
+    },
+    "Thursday": {
+        "INFO": 7611,
+        "ERROR": 7451,
+        "WARNING": 7467,
+        "DEBUG": 7633
+    },
+    "Friday": {
+        "INFO": 7540,
+        "ERROR": 7413,
+        "WARNING": 7547,
+        "DEBUG": 7637
+    },
+    "Saturday": {
+        "INFO": 7587,
+        "ERROR": 7525,
+        "WARNING": 7521,
+        "DEBUG": 7785
+    },
+    "Sunday": {
+        "INFO": 7597,
+        "ERROR": 7721,
+        "WARNING": 7661,
+        "DEBUG": 7410
+    }
+}
