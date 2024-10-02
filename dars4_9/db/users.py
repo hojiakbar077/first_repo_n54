@@ -23,4 +23,4 @@ class User:
             return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        print(self.first_name)
+        print(exc_type)
