@@ -23,4 +23,12 @@ class User:
             return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        print(self.first_name)
+        with open("users.json") as file:
+            user_data = json.load(file)
+
+        for i in user_data:
+            if i["id"] == self.id:
+                i["first_name"] = self.first_name
+
+        with open("users.json", "w") as w_file:
+            json.dump(user_data, w_file, indent=4)
